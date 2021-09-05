@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const http =  require('http');
 const port = process.env.port || 8080;
 
@@ -8,4 +7,4 @@ res.end('Hello World');
 }
 
 const server = http.createServer(requestListener);
-=======
+server.listen(port);
